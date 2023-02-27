@@ -18,7 +18,7 @@ body {
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 
-/* header */
+/* ---header--- */
 
 .header1 {
     background-color: #00294F;
@@ -39,6 +39,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 header .logo {
     color: #F2EAE4;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 3.5rem;
     font-weight: 600;
 }
@@ -80,5 +81,103 @@ header .header-flags-icons {
     align-items: center;
     gap: 3rem;
 }
+
+header .fa-share-nodes {
+    color: #DA5826;
+    transition: color 0.2s ease;
+}
+
+header .fa-share-nodes:hover {
+    color: #F2EAE4;
+}
+
+/* ---home--- */
+
+main {
+    max-width: 105rem;
+    margin: auto;  
+    margin-top: 5rem; 
+    margin-bottom: 5rem;
+}
+
+.main-container {
+    color: #00294F;
+    font-family: 'Ubuntu', sans-serif;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.main-container .text1 {
+    font-size: 3rem;
+}
+
+.main-container .text2 {
+    font-size: 7rem;
+    font-weight: 600;
+}
+
+.main-container .text3 span {
+    color: #DA5826;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.main-container .main-button {
+    background-color: #00294F;
+    color: #DA5826;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    border-radius: 5rem;
+    transition: color 0.2s ease;
+    
+    margin-top: 4rem;
+    width: 20rem;
+    margin-right: 2rem;
+}
+
+.main-container .main-button:hover {
+    color: #F2EAE4;
+}
+
+.main-container .main-image {
+    border-radius: 20%;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+
+    transition: 0.5s ease;
+}
+
+.main-container .main-image:hover {
+    transform: scale(1.1);
+}
+
+main .social-media-icons {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 3rem;
+    
+    max-width: 105rem;
+    margin: auto;
+}
+
+main .social-media-each-icon {
+    color: #00294F;
+    font-size: 3.5rem;  
+    margin-top: 12rem;  
+
+    transition: color 0.2s ease;
+}
+
+main .social-media-each-icon:hover {
+    color: #DA5826;
+    font-size: 3.5rem;  
+}
+
+
 
 
