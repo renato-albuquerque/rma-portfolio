@@ -11,6 +11,10 @@
     font-size: 62.5%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 1.6rem;
 }
@@ -97,7 +101,7 @@ main {
     max-width: 105rem;
     margin: auto;  
     margin-top: 5rem; 
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
 }
 
 .main-container {
@@ -176,6 +180,44 @@ main .social-media-each-icon {
 main .social-media-each-icon:hover {
     color: #DA5826;
     font-size: 3.5rem;  
+}
+
+/* ---about--- */
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10rem;
+
+    max-width: 105rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.about-image {
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+
+    transition: 0.5s ease;
+}
+
+.about-image:hover {
+    transform: scale(1.1);
+}
+
+.about-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color: #00294F;
+    margin-bottom: 2rem;
+}
+
+.about-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    color: #00294F;
+    text-align: justify;
 }
 
 
