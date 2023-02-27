@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* header */
+
+.header1 {
+    background-color: #00294F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.header2 {
+    background-color: #00294F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+}
+
+header .logo {
+    color: #F2EAE4;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+header .logo span {
+    color: #DA5826;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+header .menu a {
+    color: #F2EAE4;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    /* transition: color 0.2s ease; */ /* Another possibility. */
+
+    padding: 1rem 2rem;
+    border-radius: 5rem; 
+    transition: 0.2s ease;
+}
+
+header .menu a:hover {
+    /* color: #DA5826; */ /* Another possibility. */
+    background-color: #DA5826;
+}
+
+header .fa-solid {  /* Icons: share, sun, moon. */
+    color: #F2EAE4;
+    font-size: 2.2rem;
+}
+
+header .header-flags-icons {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
