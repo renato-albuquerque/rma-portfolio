@@ -97,11 +97,14 @@ header .fa-share-nodes:hover {
 
 /* ---home--- */
 
-main {
+.main {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.main-max-width {
     max-width: 105rem;
     margin: auto;  
-    margin-top: 5rem; 
-    /* margin-bottom: 5rem; */
 }
 
 .main-container {
@@ -159,7 +162,7 @@ main {
     transform: scale(1.1);
 }
 
-main .social-media-icons {
+.main .social-media-icons {
     display: flex;
     align-items: center;
     justify-content: left;
@@ -169,7 +172,7 @@ main .social-media-icons {
     margin: auto;
 }
 
-main .social-media-each-icon {
+.main .social-media-each-icon {
     color: #00294F;
     font-size: 3.5rem;  
     margin-top: 12rem;  
@@ -177,7 +180,7 @@ main .social-media-each-icon {
     transition: color 0.2s ease;
 }
 
-main .social-media-each-icon:hover {
+.main .social-media-each-icon:hover {
     color: #DA5826;
     font-size: 3.5rem;  
 }
@@ -185,20 +188,24 @@ main .social-media-each-icon:hover {
 /* ---about--- */
 
 .about {
+   background-color: beige;
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+}
+
+.about-max-width {
+    max-width: 105rem;
+    margin: auto;
+
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10rem;
-
-    max-width: 105rem;
-    margin: auto;
-    margin-top: 5rem;
 }
 
 .about-image {
-    border-radius: 50%;
+    border-radius: 20%;
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
-
     transition: 0.5s ease;
 }
 
@@ -213,13 +220,37 @@ main .social-media-each-icon:hover {
     margin-bottom: 2rem;
 }
 
+.about-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #DA5826;
+}
+
 .about-description {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     color: #00294F;
     text-align: justify;
+    margin-bottom: 2rem;
 }
 
+.about-span1 {
+    color: green;
+    font-weight: bolder;
+}
 
+.about-span2 {
+    color: rgb(219, 219, 0);
+    font-weight: bolder;
+}
 
+.about-span3 {
+    color: red;
+    font-weight: bolder;
+}
+
+.about-span4 {
+    color: green;
+    font-weight: bolder;
+}
 
