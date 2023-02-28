@@ -223,7 +223,8 @@ header .fa-share-nodes:hover {
 .about-subtitle {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
-    color: #DA5826;
+    text-decoration: underline;
+    color: #00294F;
 }
 
 .about-description {
@@ -254,3 +255,58 @@ header .fa-share-nodes:hover {
     font-weight: bolder;
 }
 
+/* ---skills--- */
+
+.skills {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.skills-max-width {
+    max-width: 105rem;
+    margin: auto;
+    
+    display: flex;  /* To center the titles. */
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.skills-title1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color: #00294F;
+    margin-bottom: 2rem;
+}
+
+.skills-title2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #00294F;
+    margin-bottom: 2rem;
+}
+
+.skills-technologies1 {
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center; /* To center the stacks. */
+    gap: 3rem;
+}
+
+.skills-technologies2 {
+    display: flex;
+    justify-content: center; /* To center the stacks. */
+    gap: 3rem;
+}
+
+.skills img {
+    transition: 0.5s ease;
+}
+
+.skills-technologies1 img:hover {
+    transform: scale(1.2);
+}
+
+.skills-technologies2 img:hover {
+    transform: scale(1.2);
+}
