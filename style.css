@@ -98,7 +98,7 @@ header .fa-share-nodes:hover {
 /* ---home--- */
 
 .main {
-    padding-top: 5rem;
+    padding-top: 8rem; /* Standard for this portfolio site = 5rem */
     padding-bottom: 5rem;
 }
 
@@ -175,7 +175,7 @@ header .fa-share-nodes:hover {
 .main .social-media-each-icon {
     color: #00294F;
     font-size: 3.5rem;  
-    margin-top: 12rem;  
+    margin-top: 8rem;  
 
     transition: color 0.2s ease;
 }
@@ -233,6 +233,15 @@ header .fa-share-nodes:hover {
     color: #00294F;
     text-align: justify;
     margin-bottom: 2rem;
+}
+
+.about-description a {
+    color: #00294F;
+}
+
+.about-description a:hover {
+    color: #DA5826;
+    text-decoration: underline;
 }
 
 .about-span1 {
@@ -309,4 +318,28 @@ header .fa-share-nodes:hover {
 
 .skills-technologies2 img:hover {
     transform: scale(1.2);
+}
+
+/* ---education--- */
+
+.education {
+    background-color: beige;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.education-max-width {
+    max-width: 105rem;
+    margin: auto;
+}
+
+.education-max-width h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color: #00294F;
+    margin-bottom: 2rem;
+
+    display: flex;  /* To center the title. */
+    justify-content: center;
 }
