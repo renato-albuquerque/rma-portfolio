@@ -357,8 +357,8 @@ header .fa-share-nodes:hover {
     justify-content: center; 
     flex-direction: column;
 
-    width: 20rem;
-    height: 25rem;
+    width: 25rem;
+    height: 30rem;
     padding: 1rem;
     border: transparent;
     border-radius: 1rem;
@@ -367,9 +367,13 @@ header .fa-share-nodes:hover {
     transition: all 0.3s ease 0s;
 }
 
+.card:hover {
+    background-color: bisque;
+}
+
 .card img {
     width: 15rem;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
     /* margin: 5rem 0; */
 }
 
@@ -382,16 +386,19 @@ header .fa-share-nodes:hover {
     text-align: center;
 }
 
-.card-texts h3 {
+.card-texts h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-    /* line-height: 1.2rem; */
+}
+
+.card-texts h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
     margin-bottom: 2rem;
 }
 
-.card-texts h3 span {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
+.card-texts h4 .text-hidden {
+    color: white;
 }
 
 .card-texts p {
@@ -408,7 +415,7 @@ header .fa-share-nodes:hover {
     margin-bottom: 2rem;
 
     display: flex;  /* To center the title. */
-    /* flex-direction: column; */
+    flex-direction: column;
     text-align: center;
     justify-content: center;
 }
