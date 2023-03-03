@@ -378,6 +378,13 @@ header .fa-share-nodes:hover {
     margin: 3rem 0;
 }
 
+.card h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
+    color: black;
+    text-align: center;
+}
+
 .card .card-text1 {
     display: flex;
     align-items: center;
