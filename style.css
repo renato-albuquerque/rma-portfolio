@@ -384,7 +384,7 @@ header .fa-share-nodes:hover {
 .card h3 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.8rem;
-    color: black;
+    color: #00294F;
     text-align: center;
 }
 
@@ -493,9 +493,60 @@ header .fa-share-nodes:hover {
     justify-content: space-around;
 }
 
+.contacts-general-container i {
+    font-size: 4rem;
+    color: gray;
+    transition: color 0.2s ease;
+}
 
+.contacts-general-container i:hover {
+    color: #00294F;
+}
 
+.contacts-container1 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;    
+}
 
+.contacts-container1 ul {
+    font-family: 'Poppins', sans-serif;
+    color: #00294F;
+}
+
+.contacts-container1 ul li a {
+    color: #00294F;
+    transition: color 0.2s ease;
+    font-weight: bold;
+}
+
+.contacts-container1 ul li a:hover {
+    color: #DA5826;
+}
+
+.contacts-container2 {
+    display: flex;
+    align-items: center; 
+    gap: 2rem;
+    margin-bottom: 2rem;  
+}
+
+.contacts-container2 ul {
+    font-family: 'Poppins', sans-serif;
+    color: #00294F;
+}
+
+.contacts-container2 ul li a {
+    color: #00294F;
+    transition: color 0.2s ease;
+    font-weight: bold;
+}
+
+.contacts-container2 ul li a:hover {
+    color: #DA5826;
+    text-decoration: underline;
+}
 
 
 
@@ -548,4 +599,14 @@ header .fa-share-nodes:hover {
     color: #F2EAE4;
     font-weight: bold;
 }
+
+.footer .footer-chevron-up {
+    position: fixed;
+    right: 2rem;
+    bottom: 3.5rem;
+    color: #DA5826;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
 
