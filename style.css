@@ -22,7 +22,7 @@ body {
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 
-/* ---header--- */
+/* --- header --- */
 
 .header1 {
     background-color: #00294F;
@@ -95,11 +95,13 @@ header .fa-share-nodes:hover {
     color: #F2EAE4;
 }
 
-/* ---home--- */
+/* --- home --- */
 
 .main {
     padding-top: 8rem; /* Standard for this portfolio site = 5rem */
     padding-bottom: 5rem;
+    /* width: 100vw;
+    height: 100vh; */
 }
 
 .main-max-width {
@@ -185,7 +187,7 @@ header .fa-share-nodes:hover {
     font-size: 3.5rem;  
 }
 
-/* ---about--- */
+/* --- about --- */
 
 .about {
    background-color: beige;
@@ -264,7 +266,7 @@ header .fa-share-nodes:hover {
     font-weight: bolder;
 }
 
-/* ---skills--- */
+/* --- skills --- */
 
 .skills {
     padding-top: 5rem;
@@ -320,7 +322,7 @@ header .fa-share-nodes:hover {
     transform: scale(1.2);
 }
 
-/* ---education--- */
+/* --- education --- */
 
 .education {
     background-color: beige;
@@ -424,5 +426,66 @@ header .fa-share-nodes:hover {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+}
+
+.education-cards .color-brazil {
+    color: darkgreen;
+}
+
+.education-cards .color-portugal {
+    color: darkred;
+}
+
+/* --- contacts --- */
+
+
+
+
+
+/* --- footer --- */
+
+.footer {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: #00294F;
+}
+
+.footer .footer-max-width {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .footer-social-media-icons {
+    display: flex;  
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-social-media-each-icon {
+    color: #F2EAE4;
+    font-size: 2.5rem;  
+    transition: color 0.2s ease;
+}
+
+.footer .footer-social-media-each-icon:hover {
+    color: #DA5826;
+}
+
+.footer .footer-copyright {
+    color: #F2EAE4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;  
+}
+
+.footer .footer-a {
+    color: #DA5826;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.footer .footer-a:hover {
+    color: #F2EAE4;
+    font-weight: bold;
 }
 
