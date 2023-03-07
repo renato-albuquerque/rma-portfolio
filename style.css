@@ -367,13 +367,18 @@ header .fa-share-nodes:hover {
     /* border: transparent; */
     border-radius: 1rem;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    background-color: silver;
-    transition: all 0.3s ease 0s;
+    background: linear-gradient(
+    45deg,
+    rgb(218, 165, 32, 1) 15%,
+    rgb(255, 215, 0, 1) 65%,
+    rgb(218, 165, 32, 1) 85%
+    );
+    transition: all 0.3s ease;
 }
 
 .card:hover {
-    background-color: bisque;
-    box-shadow: 4px 4px 8px -2px rgba(0, 0, 0, 0.3)
+    box-shadow: 4px 4px 8px -2px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
 }
 
 .card .card-image {
@@ -464,6 +469,14 @@ header .fa-share-nodes:hover {
 
 
 
+
+
+
+
+
+
+
+
 /* --- contacts --- */
 
 .contacts {
@@ -481,7 +494,7 @@ header .fa-share-nodes:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     color: #00294F;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 
     display: flex;  /* To center the title. */
     justify-content: center;
@@ -495,7 +508,7 @@ header .fa-share-nodes:hover {
 
 .contacts-general-container i {
     font-size: 4rem;
-    color: gray;
+    color: #DA5826;
     transition: color 0.2s ease;
 }
 
@@ -548,11 +561,6 @@ header .fa-share-nodes:hover {
     text-decoration: underline;
 }
 
-
-
-
-
-
 /* --- footer --- */
 
 .footer {
@@ -603,9 +611,9 @@ header .fa-share-nodes:hover {
 .footer .footer-chevron-up {
     position: fixed;
     right: 2rem;
-    bottom: 3.5rem;
+    bottom: 3rem;
     color: #DA5826;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
