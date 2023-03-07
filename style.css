@@ -99,8 +99,8 @@ header .fa-share-nodes:hover {
 
 .main {
     padding-top: 8rem; /* Standard for this portfolio site = 5rem */
-    padding-bottom: 5rem;
-    /* width: 100vw;
+    padding-bottom: 8rem;
+ /*    width: 100vw;
     height: 100vh; */
 }
 
@@ -252,17 +252,12 @@ header .fa-share-nodes:hover {
 }
 
 .about-span2 {
-    color: rgb(219, 219, 0);
+    color: darkred;
     font-weight: bolder;
 }
 
 .about-span3 {
     color: red;
-    font-weight: bolder;
-}
-
-.about-span4 {
-    color: green;
     font-weight: bolder;
 }
 
