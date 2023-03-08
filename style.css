@@ -24,6 +24,12 @@ font-family: 'Ubuntu', sans-serif; */
 
 /* --- header --- */
 
+.header-container {
+    position: fixed;
+    left: auto;
+    right: auto;
+}
+
 .header1 {
     background-color: #00294F;
     display: flex;
@@ -453,15 +459,113 @@ header .fa-share-nodes:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     color: #00294F;
-    /* margin-bottom: 2rem; */
+    margin-bottom: 2rem;
 
     display: flex;  /* To center the title. */
     justify-content: center;
     text-align: center;
 }
 
+.projects .projects-cards {
+    border-style: solid;
+    width: 40rem;
+    height: 44rem;
+}
 
+.projects .projects-cards .projects-image {
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 4rem;
+    color: #DA5826;
+}
 
+.projects .projects-cards .projects-texts h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #00294F;
+    margin-bottom: 2rem;
+}
+
+.projects .projects-cards .projects-texts p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #00294F;
+    margin-bottom: 2rem;
+    text-align: justify;
+    padding: 0 2rem;
+}
+
+.projects .projects-cards .projects-tech-used h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #00294F;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+}
+
+.projects .projects-cards .projects-tech-used i {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    padding-left: 2rem;
+}
+
+.projects .fa-html5 {
+    color: #E44D25;
+}
+
+.projects .fa-css3-alt {
+    color: #254BDD;
+}
+
+.projects .fa-square-js {
+    color: #EFD81D;
+}
+
+.projects .projects-cards .projects-buttons {
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+    /* display: flex;
+    justify-content: flex-end;
+    gap: 2rem; */
+}
+
+.projects .projects-cards .projects-all-buttons .projects-buttons {
+    background-color: #00294F;
+    text-align: center;
+    color: #DA5826;
+    padding: 1rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    border-radius: 5rem;
+    transition: color 0.2s ease;
+}
+
+.projects .projects-cards .projects-all-buttons .projects-buttons:hover {
+    color: #F2EAE4;
+}
+
+/* .main-container .main-button {
+    background-color: #00294F;
+    color: #DA5826;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    border-radius: 5rem;
+    transition: color 0.2s ease;
+    
+    margin-top: 4rem;
+    width: 20rem;
+    margin-right: 2rem;
+}
+
+.main-container .main-button:hover {
+    color: #F2EAE4;
+} */
 
 
 
