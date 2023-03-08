@@ -466,10 +466,19 @@ header .fa-share-nodes:hover {
     text-align: center;
 }
 
+.projects .projects-all-cards {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
 .projects .projects-cards {
-    border-style: solid;
+    border: 0.1rem solid #00294F;
+    background-color: #F2EAE4;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06);
     width: 40rem;
-    height: 44rem;
+    height: 45rem; 
 }
 
 .projects .projects-cards .projects-image {
@@ -521,20 +530,19 @@ header .fa-share-nodes:hover {
     color: #EFD81D;
 }
 
-.projects .projects-cards .projects-buttons {
+.projects .projects-cards .projects-all-buttons {
     margin-bottom: 2rem;
     padding: 0 2rem;
-    /* display: flex;
-    justify-content: flex-end;
-    gap: 2rem; */
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .projects .projects-cards .projects-all-buttons .projects-buttons {
     background-color: #00294F;
-    text-align: center;
     color: #DA5826;
     padding: 1rem;
-    width: 10rem;
+    width: 12rem;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
