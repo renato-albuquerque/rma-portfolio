@@ -25,26 +25,26 @@ font-family: 'Ubuntu', sans-serif; */
 /* --- header --- */
 
 .header-container {
-    position: fixed;
-    left: auto;
-    right: auto;
+    background-color: #00294F;
 }
 
 .header1 {
-    background-color: #00294F;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
+    max-width: 144rem;
+    margin: auto;
 }
 
 .header2 {
-    background-color: #00294F;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
     padding-bottom: 1rem;
+    max-width: 144rem;
+    margin: auto;
 }
 
 header .logo {
@@ -302,12 +302,14 @@ header .fa-share-nodes:hover {
     margin-bottom: 6rem;
     display: flex;
     justify-content: center; /* To center the stacks. */
+    flex-wrap: wrap;
     gap: 3rem;
 }
 
 .skills-technologies2 {
     display: flex;
     justify-content: center; /* To center the stacks. */
+    flex-wrap: wrap;
     gap: 3rem;
 }
 
@@ -469,6 +471,7 @@ header .fa-share-nodes:hover {
 .projects .projects-all-cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 5rem;
 }
 
@@ -633,12 +636,6 @@ header .fa-share-nodes:hover {
     gap: 1.5rem;
 }
 
-
-
-
-
-
-
 /* --- contacts --- */
 
 .contacts {
@@ -666,6 +663,7 @@ header .fa-share-nodes:hover {
 .contacts-general-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .contacts-general-container i {
