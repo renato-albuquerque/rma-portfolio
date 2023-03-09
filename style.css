@@ -777,4 +777,22 @@ header .fa-share-nodes:hover {
     font-weight: bold;
 }
 
+@media (max-width: 1200px) {
+    .header1 {
+        width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header2 {
+        width: 768px;
+    }
+
+
+
+
+
+}
+
+
 
