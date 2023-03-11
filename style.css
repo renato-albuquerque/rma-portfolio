@@ -33,7 +33,7 @@ font-family: 'Ubuntu', sans-serif; */
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    max-width: 144rem;
+    max-width: 120rem;
     margin: auto;
 }
 
@@ -43,28 +43,28 @@ font-family: 'Ubuntu', sans-serif; */
     justify-content: space-between;
     padding: 0 2rem;
     padding-bottom: 1rem;
-    max-width: 144rem;
+    max-width: 120rem;
     margin: auto;
 }
 
-header .logo {
+.header-container .logo {
     color: #F2EAE4;
     font-family: 'Ubuntu', sans-serif;
     font-size: 3.5rem;
     font-weight: 600;
 }
 
-header .logo span {
+.header-container .logo span {
     color: #DA5826;
 }
 
-header .menu {
+.header-container .menu {
     display: flex;
     align-items: center;
     gap: 3rem;
 }
 
-header .menu a {
+.header-container .menu a {
     color: #F2EAE4;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.8rem;
@@ -76,28 +76,28 @@ header .menu a {
     transition: 0.2s ease;
 }
 
-header .menu a:hover {
+.header-container .menu a:hover {
     /* color: #DA5826; */ /* Another possibility. */
     background-color: #DA5826;
 }
 
-header .fa-solid {  /* Icons: share, sun, moon. */
+.header-container .fa-solid {  /* Icons: share, sun, moon. */
     color: #F2EAE4;
     font-size: 2.2rem;
 }
 
-header .header-flags-icons {
+.header-container .header-flags-icons {
     display: flex;
     align-items: center;
     gap: 3rem;
 }
 
-header .fa-share-nodes {
+.header-container .fa-share-nodes {
     color: #DA5826;
     transition: color 0.2s ease;
 }
 
-header .fa-share-nodes:hover {
+.header-container .fa-share-nodes:hover {
     color: #F2EAE4;
 }
 
@@ -777,22 +777,7 @@ header .fa-share-nodes:hover {
     font-weight: bold;
 }
 
-@media (max-width: 1200px) {
-    .header1 {
-        width: 768px;
-        display: flex;
-        flex-wrap: wrap;
-    }
 
-    .header2 {
-        width: 768px;
-    }
-
-
-
-
-
-}
 
 
 
